@@ -1,7 +1,24 @@
-import '../styles/globals.css'
+import { useEffect, useState } from 'react';
+import '../styles/style.scss'
+import '../styles/helpers.scss'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => {
+  const [isServer, setIsServer] = useState(true);
 
-export default MyApp
+  useEffect(() => {
+    const jssStyles = document.querySelector('#jss-server-side');
+    if (jssStyles && jssStyles.parentNode) {
+      jssStyles.parentNode.removeChild(jssStyles);
+    }
+    setIsServer(false);
+  }, []);
+
+  if (isServer) {
+    return <></>;
+  }
+  return (
+      <Component {...pageProps} />
+  );
+};
+
+export default MyApp;
