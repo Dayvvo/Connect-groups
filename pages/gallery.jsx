@@ -21,38 +21,34 @@ const Gallery = ({className})=>{
                     <div className=" sectM grid3">
 
                         <div className='relative'>
-                            <img className='fullW' src="/rectangle31.png/" alt="" />
+                            <img className='fullW' src="/Rectangle31.png/" alt="" />
                             <div className='fullW fullH fullFlex absolute'>
                                 <button className='downloadBtn btnn'>Download</button>
                             </div>
                         </div>
 
-                        <div><img className='fullW' src="/rectangle3.png/" alt="" /></div>
+                        <div><img className='fullW' src="/Rectangle3.png/" alt="" /></div>
 
-                        <div><img className='fullW' src="/rectangle32.png/" alt="" /></div>
+                        <div><img className='fullW' src="/Rectangle32.png/" alt="" /></div>
 
-                        <div><img className='fullW' src="/rectangle33.png/" alt="" /></div>
-
-                        <div>
-                            <img className='fullW' src="/rectangle34.png/" alt="" />
-                        </div>
-
-
-
+                        <div><img className='fullW' src="/Rectangle33.png/" alt="" /></div>
 
                         <div>
-                            <img className='fullW' src="/rectangle37.png/" alt="" />
+                            <img className='fullW' src="/Rectangle34.png/" alt="" />
                         </div>
 
 
                         <div>
-                            <img className='fullW' src="/rectangle38.png/" alt="" />
+                            <img className='fullW' src="/Rectangle37.png/" alt="" />
+                        </div>
+
+                        <div>
+                            <img className='fullW' src="/Rectangle38.png/" alt="" />
                         </div>
 
 
-
                         <div>
-                            <img className='fullW' src="/rectangle39.png/" alt="" />
+                            <img className='fullW' src="/Rectangle39.png/" alt="" />
                         </div>
 
 
