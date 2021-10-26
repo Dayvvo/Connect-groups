@@ -127,7 +127,7 @@ export default styled(Navbar)`
     min-height:69px;
     z-index:100;
     ${props=>props.whitenavbar?'box-shadow:0px 1px 10px 3px rgb(0 0 0 / 7%);':''}
-
+    max-height:81px;
     .rwd{
         position:fixed;
         top:0;
