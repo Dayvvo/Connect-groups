@@ -50,7 +50,7 @@ const Index = ({className})=>{
                     </div>
 
                     <div className='flex1 landing_page '> 
-                        <img src="/landing.png/" className='fullW' alt="landing-page" />
+                        <img src="/hero_2.png/" className='fullW' alt="landing-page" />
 
                     </div>
 
@@ -466,7 +466,7 @@ export default styled(Index)`
                     left:15%;
                 }
                 &.liteBlue{
-                    display:unset;
+                    /* display:unset; */
                     top:58%;
                     right:15%;
                     width:14px;
@@ -500,7 +500,7 @@ export default styled(Index)`
 
                 &.green{
                     top:40%;
-                    left:91%;
+                    left:94%;
                 }
 
                 &.red1{
